@@ -1,0 +1,69 @@
+Item name ,Weapon Power,Weapon Lifesteal,Armor Pierce,Attack Speed,Critical Chance,Critical Damage,Crystal Power,Crystal Lifesteal,Shield Pierce,Cooldown,Max Energy,Energy Recharge,True Damage (Level 1),True Damage (Level 12),Shield,Armor,Health,Cost,Description
+Aegis,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,125,30,200,2250,Gain a barrier worth 25% of your missing health and block all debuffs for 1 second. 45 second cooldown. Can activate while stunned
+Aftershock,0,0%,0%,0%,0%,0%,35,0%,0%,25%,0,2.5,0,0,0,0,0,2400,"After using an ability, your next basic attack deals 15% of the target's max health as damage with 50% lifesteal. Max 400 damage vs non-heroes. 1.5 second cooldown"
+Alternating Current,0,0%,0%,35%,0%,0%,60,0%,0%,0%,0,0,0,0,0,0,0,2800,Every other attack deals 70% of your crystal power as bonus damage
+Atlas Pauldron,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,35,85,0,1900,"Activate to maim nearby enemies, lowering their attack speed by 50% of their total for 4 seconds, in a 4 meter range. 20 second cooldown"
+Barbed Needle,12,10%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,800,Restores 40HP whenever you kill a minion or monster (85 with melee attacks)
+Blazing Salvo,0,0%,0%,20%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,700,
+Bonesaw,15,0%,8%,25%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,2700,Your basic attacks shred 5% of the targets armour for 3 seconds. Max 8 stacks
+Book of Eulogies,5,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,300,Restores 30HP whenever you kill a minion or a monster (60 with melee attacks)
+Breaking Point,55,0%,0%,20%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,2600,"Gain 10 Weapon Power for every 140 damage done to enemy heroes, +5/10 (Melee/Ranged) damage needed for each stack thereafter. 20 stacks max. Decays 3 stacks per second after you've stopped attacking for 2.5 seconds"
+Broken Myth,0,0%,0%,0%,0%,0%,70,0%,10%,0%,0,0,0,0,0,0,0,3100,"Amplify all crystal damage by 4% for each second you are attacking enemy heroes. After 4 seconds, you lose one stack per second. Max 9 stacks"
+Chronograph,0,0%,0%,0%,0%,0%,0,0%,0%,25%,0,2.5,0,0,0,0,0,800,
+Clockwork,0,0%,0%,0%,0%,0%,0,0%,0%,40%,250,7.5,0,0,0,0,0,2250,Amplify crystal power by 30%
+Coat of Plates,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,30,75,0,800,
+Contraption,0,0%,0%,0%,0%,0%,0,0%,0%,40%,0,3,0,0,0,0,350,2100,Activate and target yourself to place a scout trap. Target elsewhere to fire a flare. 5 second cooldown. 3 charges max. 20 seconds per charge
+Crucible,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,600,1850,Trigger a teamwide reflex block. 45 second cooldown
+Crystal Bit,0,0%,0%,0%,0%,0%,20,0%,0%,0%,0,0,0,0,0,0,0,300,
+Crystal infusion ,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,500,"Consume to temporarily gain 20-60 crystal power, 10-25% cooldown speed, and 10-30 armour & shield based on your level. Lasts 2.5 minutes. Can only have one infusion at a time"
+Dragonblood Contract,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,300,"Activate and after a brief delay, nearby enemies are marked for the next 3 seconds. The next basic attack from an ally consumes the mark, slowing by 30% for 2 seconds and dealing 100 bonus crystal damage. 10 second cooldown. 2 charges max. 25 seconds per charge"
+Dragonheart,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,400,650,
+Eclipse Prism,0,0%,0%,0%,0%,0%,35,0%,0%,0%,0,0,0,0,0,0,0,650,
+Echo,0,0%,0%,0%,0%,0%,0,0%,0%,0%,300,4,0,0,0,0,0,2200,The last ability to be put on cooldown is refreshed (115% of ability's cooldown + 10 seconds cooldown)
+Energy Battery,0,0%,0%,0%,0%,0%,0,0%,0%,0%,250,4,0,0,0,0,0,700,
+Eve of Harvest,0,0%,0%,0%,0%,0%,55,10%,0%,0%,250,5,0,0,0,0,0,2600,"Your next 600-1200 (level 1-12) points of crystal damage to enemy heroes has 25% lifesteal, recharges over 40 seconds"
+Flare,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,25,Consume to reveal an area for 5 seconds. Scout traps seen within this area are permanently revealed. 5 second cooldown
+Flare Gun,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,250,600,Fire a flare. 5 second cooldown. Max 2 charges. 20 seconds per charge
+Fountain of Renewal,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,75,30,200,2300,Regenerate 2.5% of your missing health per second whenever you are out of combat with enemy heroes for 5 seconds. Activate to heal you and nearby allies for 2 HP for each missing % of health per second for 3 seconds. 60 second cooldown
+Frostburn,0,0%,0%,0%,0%,0%,100,0%,0%,0%,0,0,0,0,0,0,0,2600,"Dealing crystal damage will slow for 1.5 seconds, target(s) may not be affected by Frostburn for 2 seconds afterwards. Slows by 10% +1% per 10 crystal power. Max 35% slow"
+Metal Jacket,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,35,170,0,2100,
+Halcyon Chargers,0,0%,0%,0%,0%,0%,0,0%,0%,15%,250,4,0,0,0,0,200,2300,Passive: Travel Boots. Passive: Move Speed +0.5. Activate to sprint for 3 seconds. 50 second cooldown
+Halcyon Potion,0,0%,0%,0%,0%,0%,,0%,0%,0%,0,0,0,0,0,0,0,25,"Consume to restore 80 HP and 40 energy instantly, then 200 HP and 65 energy over 25 seconds"
+Heavy Prism,0,0%,0%,0%,0%,0%,50,0%,0%,0%,0,0,0,0,0,0,0,1050,
+Heavy Steel,55,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,1150,
+Hourglass,0,0%,0%,0%,0%,0%,0,0%,0%,15%,0,1.5,0,0,0,0,0,250,
+Ironguard Contract,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,300,"When a nearby ally kills a jungle monster or a large lane minion, you and your ally heal for 75 HP and 10 energy each"
+Journey Boots,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,250,1900,Passive: Move Speed +0.6. Passive: Travel Boots. Activate to sprint for 2 seconds. 60 second cooldown. Damaging heroes resets the cooldown to 12 seconds if it is above it
+Kinetic Shield,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,75,30,0,800,
+Lifespring,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,200,800,Regenerate 2.5% of your missing health per second whenever you are out of combat with enemy heroes for 5 seconds
+Light Armour,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,10,40,0,250,
+Light Shield,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,40,10,0,250,
+Lucky Strike,0,0%,0%,0%,20%,15%,0,0%,0%,0%,0,0,0,0,0,0,0,900,
+Minion Candy,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,50,"Consume to empower nearby friendly minions for 60 seconds and friendly jungle bosses for 30 seconds. They are granted 40% increased famage, 120 armour, 60 shield, and 0.5 increased move speed"
+Minions Foot,0,0%,0%,0%,10%,10%,0,0%,0%,0%,0,0,0,0,0,0,0,300,"After buying this item, your next attack on an enemy hero will crit."
+Nullwave Gauntlet,0,0%,0%,0%,0%,0%,0,0%,0%,25%,0,4,0,0,0,0,400,2200,"Activate to fire a blast at an enemy hero, which explodes shortly after hitting its target. This item silences the target for 4 seconds and deals 50-100 + 15 % of max health in crystal damage. 35 second cooldown"
+Oakheart,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,200,300,
+Piercing Shard,0,0%,0%,0%,0%,0%,20,0%,8%,0%,0,0,0,0,0,0,0,900,
+Piercing Spear,15,0%,8%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,900,
+Poisoned Shiv,30,10%,0%,30%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,2250,Every 3 basic attacks will apply a mortal wound for 2 seconds. Restores 40HP whenever you kill a minion or monster (85 with melee attacks)
+Protector Contract,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,300,Activate to grant a 120 health barrier to nearby allied heroes for 2 seconds. 5 second cooldown. 2 charges max. 15 seconds per charge
+Reflex Block ,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,200,700,Gain a barrier worth 25% of your missing health and block all debuffs for 1 second. 45 second cooldown. Can activate while stunned
+Scout Trap,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,50,Consume to place a trap at your feet. It will grant vision and will explode on contact with enemy heroes after a short delay. Deals splash damage and reveals affected enemies for 5 seconds
+Serpents Mask,85,10%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,2800,"Restores 40HP whenever you kill a minion or monster (85 with melee attacks). Your next 600-1200 (level1-12) points of damage to enemy heroes has +25% lifesteal, recharges over 40 seconds"
+Shatterglass,0,0%,0%,0%,0%,0%,150,0%,0%,0%,0,0,0,0,0,0,0,3000,
+Shiversteel,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,1450,500,For the next 4 seconds (6 if you are melee) your basic attacks will slow enemy heroes by 40% for 1.4 seconds. 15 second cooldown
+Six Sins,35,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,650,
+Slumbering Husk,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,500,1700,Taking 20% of your health in damage over 1.5 seconds fortifies your remaining health for 1.5 seconds. 30 second cooldown
+Sorrowblade,150,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,3000,
+Sprint Boots,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,300,Move Speed +0.4. Activate to sprint for 2 seconds. 150 second cooldown
+Stormcrown,0,0%,0%,0%,0%,0%,0,0%,0%,30%,0,4,40,140,0,0,200,2200,15% damage to heroes
+Stormguard Banner ,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,20,70,0,0,200,850,15% damage to heroes
+Swift shooter,0,0%,0%,10%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,300,
+Tension Bow,45,0%,10%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,2150,"Every 6 seconds, your next basic attack will deal 180 bonus Weapon Power damage"
+Tornado Trigger,0,0%,0%,40%,35%,20%,0,0%,0%,0%,0,0,0,0,0,0,0,2600,
+Travel Boots,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,100,1000,Passive: Move Speed +0.4. Passive: Move Speed +1 when not in combat. Activate to sprint for 2 seconds. 90 second cooldown
+Tyrants Monocle,60,0%,0%,0%,35%,15%,0,0%,0%,0%,0,0,0,0,0,0,0,2750,
+Void Battery ,0,0%,0%,0%,0%,0%,0,0%,0%,0%,250,4,0,0,0,0,0,700,
+War Treads,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,500,2500,Passive: Move Speed +0.4. Passive: Travel Boots. Grant a sprint to all nearby teammates for 2 seconds. 60 second cooldown
+Weapon Blade,15,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,300,
+Weapon Infusion,0,0%,0%,0%,0%,0%,0,0%,0%,0%,0,0,0,0,0,0,0,500,"Consume to temporarily gain 20-60 weapon power, 5-15% attack speed, and 10-30 armour & shield based on your level. Lasts 2.5 minutes. Can only have one infusion at a time"
