@@ -22,6 +22,7 @@ def baFight(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], 
     maxHealth = targetHealth(target, tLevel, targetItems)
     
     period = baTime(source, sLevel, sourceItems)
+    print("Period:", period)
     
     tHealth = maxHealth
     time = 0
@@ -53,10 +54,6 @@ def baFight(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], 
     while tHealth > 0:
         rawWP, rawCP = baDmg(source, sLevel, target, tLevel, sourceItems, targetItems, stacksBP)
         
-        #Account for Bonesaw
-        if ("Bonesaw" in sourceItems) and (stacksBS < 8):
-            stacksBS += 1
-        
         newArmor = armor - stacksBS * armor * 0.05
         if newArmor < 0:
             newArmor = 0    
@@ -83,6 +80,7 @@ def baFight(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], 
             tbowTime = time - period
             if time == 0 or (tbowTime%6) > (time%6):
                 rawWP += 180
+                #print("Tension Bow proced")
         
         dmgWP = raw2received(rawWP, wpPierce, newArmor)
         
@@ -98,6 +96,8 @@ def baFight(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], 
         tHealth -= (dmgWP + dmgCP)
         
         totalDmg += dmgWP + dmgCP      
+        
+        #print(int(totalDmg), stacksBP, stacksBS)
         
         #Account for Breaking Point 
         #Gain 10 Weapon Power for every 140 damage done to enemy heroes, +5/10 (Melee/Ranged) damage needed for each stack thereafter. 20 stacks max. Decays 3 stacks per second after you've stopped attacking for 2.5 seconds
@@ -116,7 +116,11 @@ def baFight(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], 
             
             if stacksBP > 20:
                 stacksBP = 20
-    
+                
+        #Account for Bonesaw
+        if ("Bonesaw" in sourceItems) and (stacksBS < 8):
+            stacksBS += 1
+            
         time += period
         autos += 1
     
@@ -230,12 +234,12 @@ def baTime(source, sLevel, sourceItems = [], stutter = False):
     return time
 
 if __name__ == "__main__":
-    source = "Lyra"
-    sLevel = 6
+    source = "Vox"
+    sLevel = 12
     target = "Adagio"
-    tLevel = 6
-    sourceItems = ["Shatterglass"]
-    targetItems = []
+    tLevel = 12
+    sourceItems = ['Bonesaw', 'Breaking Point', 'Tension Bow']
+    targetItems = ["Metal Jacket"]
     
     
     time, autos = baFight(source, sLevel, target, tLevel, sourceItems, targetItems)

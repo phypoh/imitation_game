@@ -9,7 +9,7 @@ import numpy as np
 import math
 import itertools
 from operator import itemgetter
-from Basic_Attack import *
+from basic_attack import *
 
 
 """
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     
     target = "Adagio"
     tLevel = 12
-    targetItems = []
+    targetItems = ["Metal Jacket"]
     
     
     build = optimize_WP_build(source, sLevel, target, tLevel, targetItems)
