@@ -219,6 +219,7 @@ def baTime(source, sLevel, sourceItems = [], stutter = False):
     
     #Base Attack Speed
     baseAS = source.AS[sLevel-1]
+    #baseAS = 1.363
     
     #Bonus Attack Speed
     bonusAS = 0
@@ -230,15 +231,14 @@ def baTime(source, sLevel, sourceItems = [], stutter = False):
     
     #Time Taken for one basic attack
     time = BAT/(baseAS + bonusAS * ASMod)
-    
     return time
 
 if __name__ == "__main__":
-    source = "Ringo"
+    source = "Vox"
     sLevel = 12
-    target = "Adagio"
+    target = "Glaive"
     tLevel = 12
-    sourceItems = ["Breaking Point", "Sorrowblade", "Bonesaw"]
+    sourceItems = ["Breaking Point", "Sorrowblade", "Sorrowblade"]
     targetItems = []
     
     

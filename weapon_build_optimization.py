@@ -35,7 +35,7 @@ if __name__ == "__main__":
     
     target = "Glaive"
     tLevel = 12
-    targetItems = ["Aegis"]
+    targetItems = []
     
     
     build = optimize_WP_build(source, sLevel, target, tLevel, targetItems)
@@ -43,7 +43,13 @@ if __name__ == "__main__":
     print("Target:", target + ", Level:", tLevel)
     print("Target Inventory: ", targetItems)
     
+    
     for i in build[:5]:
         print(i[0],"time: %.2f" % i[1], ", ", i[2], "autos")
-        
+    """
+    
+    for i in build:
+        if "Poisoned Shiv" in i[0]:
+            print(i)
+    """    
     
