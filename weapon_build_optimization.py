@@ -39,7 +39,9 @@ if __name__ == "__main__":
     
     
     build = optimize_WP_build(source, sLevel, target, tLevel, targetItems)
-    
+    print("Source:", source + ", Level:", sLevel)
+    print("Target:", target + ", Level:", tLevel)
+    print("Target Inventory: ", targetItems)
     
     for i in build[:5]:
         print(i[0],"time: %.2f" % i[1], ", ", i[2], "autos")

@@ -234,17 +234,17 @@ def baTime(source, sLevel, sourceItems = [], stutter = False):
     return time
 
 if __name__ == "__main__":
-    source = "Vox"
+    source = "Ringo"
     sLevel = 12
-    target = "Glaive"
+    target = "Adagio"
     tLevel = 12
-    sourceItems = ['Bonesaw','Breaking Point', 'Tension Bow' ]
-    targetItems = ["Metal Jacket"]
+    sourceItems = ["Breaking Point", "Sorrowblade", "Bonesaw"]
+    targetItems = []
     
     
     time, autos = baFight(source, sLevel, target, tLevel, sourceItems, targetItems)
     
     print(source)
     print(sourceItems)
-    print("Time to kill Glaive:", time)
+    print("Time to kill", target +":", time)
     print("Number of Autos:", autos)

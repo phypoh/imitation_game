@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Initializing values. Run this before all else!
+https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git
 """
 import pandas as pd
 import numpy as np
