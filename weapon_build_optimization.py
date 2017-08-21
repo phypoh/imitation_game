@@ -20,7 +20,8 @@ t3WP = ["Bonesaw","Breaking Point", "Tension Bow", "Tornado Trigger", "Tyrants M
 
 def optimize_WP_build(source, sLevel, target, tLevel, targetItems = [], slots = 3):
     combo_list = []
-    for combo in itertools.combinations(t3WP, slots):
+    for combo in itertools.combinations_with_replacement(t3WP, slots):
+    #for combo in itertools.product(t3WP, repeat = slots):
         time, autos = baFight(source, sLevel, target, tLevel, combo, targetItems)
         combo_list.append([combo, time, autos])
         
@@ -32,14 +33,15 @@ if __name__ == "__main__":
     source = "Vox"
     sLevel = 12
     
-    target = "Adagio"
+    target = "Glaive"
     tLevel = 12
-    targetItems = ["Metal Jacket"]
+    targetItems = ["Aegis"]
     
     
     build = optimize_WP_build(source, sLevel, target, tLevel, targetItems)
     
     
-    for i in build[:3]:
+    for i in build[:5]:
         print(i[0],"time: %.2f" % i[1], ", ", i[2], "autos")
         
+    

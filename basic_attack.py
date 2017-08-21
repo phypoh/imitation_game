@@ -22,7 +22,7 @@ def baFight(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], 
     maxHealth = targetHealth(target, tLevel, targetItems)
     
     period = baTime(source, sLevel, sourceItems)
-    print("Period:", period)
+    #print("Period:", period)
     
     tHealth = maxHealth
     time = 0
@@ -236,9 +236,9 @@ def baTime(source, sLevel, sourceItems = [], stutter = False):
 if __name__ == "__main__":
     source = "Vox"
     sLevel = 12
-    target = "Adagio"
+    target = "Glaive"
     tLevel = 12
-    sourceItems = ['Bonesaw', 'Breaking Point', 'Tension Bow']
+    sourceItems = ['Bonesaw','Breaking Point', 'Tension Bow' ]
     targetItems = ["Metal Jacket"]
     
     
@@ -246,5 +246,5 @@ if __name__ == "__main__":
     
     print(source)
     print(sourceItems)
-    print("Time to kill Adagio:", time)
+    print("Time to kill Glaive:", time)
     print("Number of Autos:", autos)
