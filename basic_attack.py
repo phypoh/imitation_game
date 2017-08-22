@@ -101,21 +101,16 @@ def baFight(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], 
         
         #Account for Breaking Point 
         #Gain 10 Weapon Power for every 140 damage done to enemy heroes, +5/10 (Melee/Ranged) damage needed for each stack thereafter. 20 stacks max. Decays 3 stacks per second after you've stopped attacking for 2.5 seconds
-        if "Breaking Point" in sourceItems:
-            if source.range < 5:   #if melee hero
+        if "Breaking Point" in sourceItems and stacksBP < 20:
+            if source.range >= 5:   #if ranged hero
                 a = 5
                 b = 135
-                c = -totalDmg
-                stacksBP = np.floor((- b + math.sqrt(b**2 - 4*a*c))/(2*a))
         
-            elif source.range >= 5: #if ranged hero 
+            elif source.range < 5: #if melee hero 
                 a = 5/2
                 b = 275/2
-                c = -totalDmg
-                stacksBP = np.floor((- b + math.sqrt(b**2 - 4*a*c))/(2*a))
-            
-            if stacksBP > 20:
-                stacksBP = 20
+            c = -totalDmg
+            stacksBP = np.floor((- b + math.sqrt(b**2 - 4*a*c))/(2*a))
                 
         #Account for Bonesaw
         if ("Bonesaw" in sourceItems) and (stacksBS < 8):
@@ -234,11 +229,11 @@ def baTime(source, sLevel, sourceItems = [], stutter = False):
     return time
 
 if __name__ == "__main__":
-    source = "Vox"
+    source = "Ringo"
     sLevel = 12
-    target = "Glaive"
+    target = "Adagio"
     tLevel = 12
-    sourceItems = ["Breaking Point", "Sorrowblade", "Sorrowblade"]
+    sourceItems = ["Breaking Point", "Sorrowblade", "Bonesaw"]
     targetItems = []
     
     
