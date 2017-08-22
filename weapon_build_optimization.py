@@ -30,12 +30,12 @@ def optimize_WP_build(source, sLevel, target, tLevel, targetItems = [], slots = 
 
 
 if __name__ == "__main__":
-    source = "Vox"
+    source = "Idris"
     sLevel = 12
     
-    target = "Glaive"
+    target = "Vox"
     tLevel = 12
-    targetItems = []
+    targetItems = ["Metal Jacket"]
     
     
     build = optimize_WP_build(source, sLevel, target, tLevel, targetItems)
@@ -43,13 +43,13 @@ if __name__ == "__main__":
     print("Target:", target + ", Level:", tLevel)
     print("Target Inventory: ", targetItems)
     
-    
+
     for i in build[:5]:
         print(i[0],"time: %.2f" % i[1], ", ", i[2], "autos")
+
     """
-    
     for i in build:
-        if "Poisoned Shiv" in i[0]:
+        if "Sorrowblade" in i[0]:
             print(i)
-    """    
     
+    """    

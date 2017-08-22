@@ -154,6 +154,16 @@ def baDmg(source, sLevel, target, tLevel, sourceItems = [], targetItems = [], st
 
     dmgWP = rawWP + stacksBP*10
     
+    critChance = 0
+    for item in sourceItems:
+        critChance += iStats[item].critChance
+    
+    critDamage = 0.5
+    for item in sourceItems:
+        critDamage += iStats[item].critDamage
+    
+    dmgWP += dmgWP*critChance*critDamage
+    
     #Crystal
     dmgCP = 0
     rawCP = 0
@@ -229,12 +239,12 @@ def baTime(source, sLevel, sourceItems = [], stutter = False):
     return time
 
 if __name__ == "__main__":
-    source = "Ringo"
+    source = "Idris"
     sLevel = 12
-    target = "Adagio"
+    target = "Vox"
     tLevel = 12
-    sourceItems = ["Breaking Point", "Sorrowblade", "Bonesaw"]
-    targetItems = []
+    sourceItems = ["Tornado Trigger", "Sorrowblade", "Tension Bow"]
+    targetItems = ["Metal Jacket"]
     
     
     time, autos = baFight(source, sLevel, target, tLevel, sourceItems, targetItems)
